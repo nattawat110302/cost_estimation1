@@ -1,0 +1,789 @@
+/* N */
+/* Noteandconfirmcreate */
+.head-text-column2{
+  font-weight: bold;
+}
+.spaceright4 {
+  padding: 10px;
+  width: 70vh;
+  height: 65vh;
+  background: #ffff;
+  border-radius: 25px;
+}
+.basic-text-column2{
+  
+  margin-top: 20px;
+}
+.subhead-text-column2{
+  margin-left: 50px;
+  
+}
+.Insurance{
+  float: left;
+  margin-right: 50px;  
+}
+
+.subhead-text-column2-last{
+  margin-left: 40px;
+  margin-right: 80px;
+  float: left;
+}
+.text-column2{
+  float: left;
+  margin-right: 150px;
+}
+
+.container-right{
+  padding: 20px;
+}
+
+.textfield-basic2 {
+  padding-left: 10px;
+  margin: 15px 20px 15px 0px;
+  height: 25px;
+  /* width: 270px; */
+  border-radius: 8px;
+  width: 20vh;
+}
+
+/* Selectprocedure */
+.text-column{
+  float: left;
+  padding: 20px;
+  margin-right: 100px;
+}
+.spaceright3 {
+  margin-top: 70px;
+  width: 70vh;
+  height: 42vh;
+  background: #ffff;
+  border-radius: 25px;
+}
+
+.spacemini2 {
+  float:left;
+  /* margin-top: 5px; */
+  width:90vh;
+  height: 30vh;
+  background: #ffff;
+  border-radius: 25px;
+}
+.textfield-note {
+  align-items:center;
+  margin-top: 10px;
+  width:90vh;
+  height: 30vh;
+  border-radius: 25px;
+}
+
+/* login */
+.popup-information{
+  /* background: #C7DAEF; */
+  background: #588FCE;
+  width: 220px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.border {
+  background: #588FCE;
+  overflow: hidden;
+}
+.text-header{
+  font-weight: bold;
+}
+
+.login_bg {
+  background: #C7DAEF;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* width: 100vw; */
+  height: 79.2vh;
+  /* height: 736px; ขนาดจอ */
+}
+
+.app-logo {
+  width: 300px;
+  margin-left: 37vw;
+  margin-top: 5vh;
+  /* margin-left: 750px; */
+  /* position: fixed;
+  top: 30%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+
+}
+
+.formlogin {
+  margin-top: 40px;
+  margin-left: 37.6vw;    /* HERE*/
+}
+
+.textfield-login {
+  padding-left: 10px;
+  margin: 15px 20px 15px 0px;
+  height: 25px;
+  width: 270px;
+  border-radius: 8px;
+  /* width: 35vh; */
+}
+
+.textfield-templatename{
+  padding-left: 10px;
+  /* margin: 15px 20px 15px 0px;
+  height: 25px;
+
+  border-radius: 8px;
+  width: 35vh; */
+}
+
+.textfield-basic {
+  padding-left: 10px;
+  margin: 15px 20px 15px 0px;
+  height: 25px;
+  /* width: 270px; */
+  border-radius: 8px;
+  width: 35vh;
+}
+
+.textfield-login::-webkit-inner-spin-button,
+.textfield-login::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.form-control-login{
+  margin-bottom: 20px;
+}
+
+.text-link{
+  float: left;
+  margin-right: 25px;
+  color: #588FCE;
+  font-size: 15px;
+}
+
+
+
+.Loginbutton {
+
+  position: absolute;
+  /* bottom: 0; */
+  /* left: 0; */
+  margin-top: 40px;
+  margin-left: 43vw;
+  /* margin: 20px 20px 15px 200px; */
+}
+
+/* add user */
+.formadduser {
+  margin-left: 32vw;
+}
+
+.registertext {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.registertextinfo {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-control {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.form-controllast {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.warning {
+  color: red;
+}
+
+.infoimg {
+  width: 15px;
+  max-width: 15px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Cancelbutton-adduser {
+
+  position: absolute;
+  /* bottom: 0; */
+  /* left: 0; */
+  margin: 40px 20px 15px 380px;
+}
+
+.Submitbutton-adduser {
+  position: absolute;
+  /* bottom: 0; */
+  /* left: 0; */
+  margin: 40px 20px 15px 260px;
+}
+
+/* select operation */
+.container-blockimg{
+  margin-top: 220px;
+  margin-left: 410px;
+  margin-top: 15vh;
+}
+.blockimg {
+  /* margin-left: 220px; */
+  margin-right: 100px;
+  /* margin-top: 15vh; */
+  float: left;
+  /* width: 30%;
+  height: 50%; */
+  height: 450px;
+  width: 500px;
+  border-radius: 25px;
+  background-color: #588FCE;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.container-select-operation {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.img {
+  width: 250px;
+  max-width: 250px;
+  margin-top: 15%;
+  margin-left: 26.5%;
+}
+
+/* add patient */
+.title {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.form-addpatient {
+  margin-left: 41.5vw;
+}
+
+.submit-button {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.form-button {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Cancelbutton {
+
+  position: absolute;
+  /* bottom: 0; */
+  /* left: 0; */
+  margin: 40px 20px 15px 180px;
+}
+
+.Submitbutton {
+  position: absolute;
+  /* bottom: 0; */
+  /* left: 0; */
+  margin: 40px 20px 15px 70px;
+}
+
+
+/* selectpatient */
+.line-select-patient {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+}
+
+.spatienthead {
+  margin-top: 100px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline;
+
+}
+
+.text {
+  float: left;
+  margin-right: 30px;
+}
+
+.textName {
+  float: left;
+  margin-left: 70px;
+}
+
+.textAge {
+  float: left;
+  margin-left: 90px;
+}
+
+.Block {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.Search-select-patient {
+  /* margin: 20px 100px 10px 20px; */
+  width: 300px;
+  position: absolute;
+  display: inline;
+
+}
+
+.table {
+  white-space: pre-line;
+  height: 50vh;
+  border-radius: 25px;
+  padding: 40px;
+  background: white;
+  margin: 100px 100px 100px 100px;
+  /* margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 30px; */
+}
+
+/* J */
+.app {}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 25px;
+}
+
+.app-header {
+  background: #588FCE;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  background: #C7DAEF;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pinfo {
+  margin: 20px 20px 20px 0px;
+}
+
+.Information {
+  float: left;
+  margin: 0px 0px 20px 100px;
+}
+
+.Search {
+  width: 500px;
+}
+
+.Search2 {
+  width: 65vh;
+}
+
+.Search3 {
+  width: 35vh;
+}
+.Search4 {
+  margin-top: 15px;
+  width: 35vh;
+}
+
+#toprights {
+  margin: 20px 100px 10px 20px;
+  position: absolute;
+  right: 0;
+}
+
+.dropdown {
+  position: relative;
+  color: #333;
+  cursor: default;
+}
+
+.dropdown .arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  content: " ";
+  display: block;
+  height: 0;
+  margin-top: 0.3rem;
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  width: 0;
+}
+
+.dropdown .arrow.open {
+  border-color: transparent transparent #999;
+  border-width: 0 5px 5px;
+}
+
+.dropdown .selected-value input {
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 8px 52px 8px 10px;
+  transition: all 200ms ease;
+  width: 100%;
+}
+
+.dropdown .options {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-top: -1px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
+}
+
+.dropdown .options.open {
+  display: block;
+}
+
+.dropdown .option {
+  box-sizing: border-box;
+  color: rgba(51, 51, 51, 0.8);
+  cursor: pointer;
+  display: block;
+  padding: 8px 10px;
+}
+
+.dropdown .option.selected,
+.dropdown .option:hover {
+  background-color: #f2f9fc;
+  color: #333;
+}
+
+.pinfo-head {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 20px 0px 10px 100px;
+}
+
+.attribute {
+  font-weight: bold;
+}
+
+.Absolute {
+  position: absolute;
+}
+
+.space {
+  position: relative;
+  clear: both;
+  background: #ffffff;
+  height: 50vh;
+  margin: 100px 100px 100px 100px;
+  padding: 40px;
+  border-radius: 25px;
+  overflow-y: scroll;
+  clear: both;
+}
+
+.space button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px 20px 20px 20px;
+}
+
+.roundbutton {
+  background-color: #48abe0;
+  color: black;
+  border: none;
+  padding: 5px;
+  font-size: 40px;
+  height: 70px;
+  width: 70px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 70%;
+}
+
+#addbutton {}
+
+.roundbutton:active {
+  background-color: #48abe0;
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+}
+
+.roundbutton:not(:first-child) {
+  margin-top: 10px;
+}
+
+.Item-li {
+  background: #588FCE;
+  width: 30vh;
+  height: 30vh;
+  margin: 20px 20px 20px 20px;
+  float: left;
+  list-style: none;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.items {}
+
+.Nextbutton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0px 110px 15px 20px;
+}
+
+.Backbutton {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0px 20px 15px 100px;
+}
+
+.Button {
+  height: 40px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.draftcheckbox {
+  float: right;
+  margin: 0px 20px 15px 100px;
+  clear: both;
+  height: 20px;
+  width: 20px;
+}
+
+.textfield {
+  margin: 0px 20px 0px 20px;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.textfield::-webkit-inner-spin-button,
+.textfield::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #C7DAEF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.custom-popup h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.custom-popup p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cancel-button,
+.confirm-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+.confirm-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.confirm-button:hover {
+  background-color: #0056b3;
+}
+
+#leftsides2 {
+  
+}
+
+.flex {
+  display: flex;
+}
+
+#nexttob {
+  margin: 0px 0px 0px 20px;
+  clear: both;
+  flex: 0.3;
+}
+
+.Time {
+  margin: 20px 0px 20px 0px;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+.spacemini {
+  float:left;
+  margin-top: 20px;
+  width:65vh;
+  height: 30vh;
+  background: #ffff;
+  border-radius: 25px;
+}
+
+.spaceright {
+  width: 70vh;
+  height: 56vh;
+  background: #ffff;
+  border-radius: 25px;
+}
+
+.container {
+  display: flex;
+  clear: both; /* Add clear: both to clear the floats */
+}
+
+.left {
+  margin: 0px 100px 20px;
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.buttonContainer2 {
+  clear: both;
+  margin-top: 20px; /* Adjust the margin-top as needed for spacing */
+}
+
+#Tempname{
+  width:65vh;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.spaceright2 {
+  width: 70vh;
+  height: 42vh;
+  background: #ffff;
+  border-radius: 25px;
+}
+
+.line{
+  display: flex;
+}
+
+#daylabel{
+  margin-left: 30vh;
+}
+
+#daytxtbox{
+  margin-left: 50px
+}
+
+.TextField{
+  height: 35px
+}
+.TextField::-webkit-inner-spin-button,
+.TextField::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.marg-left10{
+  margin-left: 10px;
+}
+
+.marg-left20{
+  margin-left: 20px;
+}
+
+.popbuttonblock{
+  margin-top: 20px;
+}
+
+#specmedsupname{
+  width:90%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#specmedsupprice{
+  margin-left: 20px;
+  width: 20vh;
+}
+
+.label-back{
+  margin-left: 5vh
+}
+
+#specmedcompany{
+  margin-left: 5vh
+}
