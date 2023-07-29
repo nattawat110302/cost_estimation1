@@ -1,8 +1,23 @@
 import './App.css';
 import ShowAndHidePassword from './components/ShowAndHidePassword';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import React, { useState } from 'react';
 
 function Login() {
+    const [selectedItem, setSelectedItem] = React.useState(null);
+    
+    const handleItemClick = (index, e) => {
+        if (e.target.tagName === 'INPUT') {
+          // If the click is on the checkbox, only handle checkbox behavior
+          setSelectedItem(index);
+        } else {
+          // If the click is outside the checkbox, navigate the link
+          // Here, you can replace "/selectorcreatetemplate.js" with your desired link URL
+          window.location.href = "/selectorcreatetemplate";
+        }
+      };
 
+    
     return (
         <div class="border">
             <div class="login_bg">
@@ -22,7 +37,10 @@ function Login() {
                         </div>
                     </div>
                     <div className="text-link">
-                        <label>Create new account</label>
+                    {/* <Link to="/Adduser">Create new account</Link> */}
+                        {/* <label>Create new account</label> */}
+                        {/* <label  onClick={link_adduser} >Create new account</label> */}
+                        <label  onClick={(e) => link_adduser()} style={{ cursor: 'pointer' }} >Create new account</label>
                     </div>
                     <div className="text-link">
                         <label>Forgot password?</label>
@@ -30,12 +48,20 @@ function Login() {
                     </div>
                 </div>
                 <div class="Loginbutton">
-                    <button class="Button" id="login">Login</button>
+                {/* <Link to="/Selectoperation"><button class="Button" id="login" style={{ cursor: 'pointer' }}>Login</button></Link> */}
+                <button class="Button" id="login" onClick={(e) => link_selectoperation()} style={{ cursor: 'pointer' }}>Login</button>
                 </div>
-
+                
             </div>
         </div>
     );
+}
+
+function link_adduser() {
+    window.location.assign("/adduser")
+}
+function link_selectoperation() {
+    window.location.assign("/selectoperation")
 }
 
 export default Login;

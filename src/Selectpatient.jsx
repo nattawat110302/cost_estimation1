@@ -4,7 +4,7 @@ import AppHeader from './components/AppHeader';
 import SearchableDropdown from './components/SearchableDropdown';
 import datas from './data/data';
 import Showdataontale from './components/showdataontale';
-
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
 function SelectPatient() {
@@ -49,13 +49,18 @@ function SelectPatient() {
                 </div>
                 <div className="Block">
                     {dataElements}
+                    
                 </div>
             </div>
             <div class="Backbutton">
-                <button class="Button" id="back">Back</button>
+                <button class="Button" id="back" onClick={(e) => link_selectoperation()} style={{ cursor: 'pointer' }}>Back</button>
             </div>
         </div>
     );
+}
+
+function link_selectoperation() {
+    window.location.assign("/selectoperation")
 }
 
 

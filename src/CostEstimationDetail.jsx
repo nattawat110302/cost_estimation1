@@ -131,7 +131,7 @@ function SelectorCreateTemplate() {
                     <h3>Medical Clerance</h3>
                     <input type="radio" id="do" name="medclerance"></input>
                     <label htmlFor="do" className="marg-left10">Do</label>
-                    <input type="radio" id="donotdo" className="marg-left20" name="medclerance"></input>
+                    <input type="radio" id="donotdo" className="marg-left20" name="medclerance" checked="checked"></input>
                     <label htmlFor="donotdo" className="marg-left10">Don't do</label>
                 </div>
                 <div className="right">
@@ -140,8 +140,8 @@ function SelectorCreateTemplate() {
                     </div>
                 </div>
                 <div className="buttonContainer2">
-                    <button className="Button Backbutton">Cancel</button>
-                    <button className="Button Nextbutton">Confirm</button>
+                    <button className="Button Backbutton" onClick={(e) => link_selectorcreatetemplate()} style={{ cursor: 'pointer' }}>Cancel</button>
+                    <button className="Button Nextbutton"onClick={(e) => link_Noteandconfirmcreate()} style={{ cursor: 'pointer' }}>Confirm</button>
                 </div>
             </div>
             {isPopupOpen && (
@@ -171,7 +171,7 @@ function SelectorCreateTemplate() {
                         </div>
                         <div class="popbuttonblock">
                             <button className="cancel-button" onClick={handleCancel}>Cancel</button>
-                            <button className="confirm-button" onClick={handleConfirm}>Confirm</button>
+                            <button className="confirm-button" onClick={handleConfirm} >Confirm</button>
                         </div>
                     </center>
                 </div>
@@ -179,5 +179,10 @@ function SelectorCreateTemplate() {
         </div>
     );
 }
-
+function link_selectorcreatetemplate() {
+    window.location.assign("/selectorcreatetemplate")
+}
+function link_Noteandconfirmcreate() {
+    window.location.assign("/Noteandconfirmcreate")
+}
 export default SelectorCreateTemplate;

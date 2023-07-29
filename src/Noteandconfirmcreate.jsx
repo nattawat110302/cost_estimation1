@@ -104,12 +104,17 @@ function Noteandconfirmcreate() {
                     </div>
                 </div>
                 <div class="buttonContainer2">
-                    <button className="Button Backbutton">Back</button>
-                    <button className="Button Nextbutton">Next</button>
+                    <button className="Button Backbutton" onClick={(e) => link_CostEstimationDetail()} style={{ cursor: 'pointer' }}>Back</button>
+                    <button className="Button Nextbutton" onClick={(e) => link_Selectpaymenttype()} style={{ cursor: 'pointer' }}>Next</button>
                 </div>
             </div>
         </div>
     );
 }
-
+function link_Selectpaymenttype() {
+    window.location.assign("/Selectpaymenttype")
+}
+function link_CostEstimationDetail() {
+    window.location.assign("/CostEstimationDetail")
+}
 export default Noteandconfirmcreate;

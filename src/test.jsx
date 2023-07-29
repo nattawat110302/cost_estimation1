@@ -33,9 +33,9 @@ function CostEstimateDraftBlock() {
         <label class="pinfo attribute" >ID :</label>
         <label class="pinfo">0000000000</label>
         <label class="pinfo attribute">Fullname :</label>
-        <label class="pinfo">Natthawat Sangkong</label>
+        <label class="pinfo">Somphong Madee</label>
         <label class="pinfo attribute">Age :</label>
-        <label class="pinfo">12</label><br />
+        <label class="pinfo">50</label><br />
         <label class="pinfo attribute">ICD-9 Code :</label>
         <label class="pinfo">------</label>
         <label class="pinfo attribute">Procedure Name :</label>
@@ -50,7 +50,7 @@ function CostEstimateDraftBlock() {
         </div>
       </div>
       <div class="Backbutton">
-        <button class="Button" id="back">Back</button>
+      <Link to="/costestimateblock"><button class="Button" id="back">Back</button></Link>
       </div>
       <div className="Nextbutton">
         <a>Actual Price</a>

@@ -64,8 +64,8 @@ function SelectorCreateTemplate() {
                     </div>
                 </div>
                 <div class="buttonContainer2">
-                    <button className="Button Backbutton">Cancel</button>
-                    <button className="Button Nextbutton">Confirm</button>
+                    <button className="Button Backbutton" onClick={(e) => link_selectorcreatetemplate()} style={{ cursor: 'pointer' }}>Cancel</button>
+                    <button className="Button Nextbutton" onClick={(e) => link_selectorcreatetemplate()} style={{ cursor: 'pointer' }}>Confirm</button>
                 </div>
             </div>
         </div>
@@ -108,5 +108,7 @@ function HourDropdown() {
         </div>
     );
 }
-
+function link_selectorcreatetemplate() {
+    window.location.assign("/selectorcreatetemplate")
+}
 export default SelectorCreateTemplate;

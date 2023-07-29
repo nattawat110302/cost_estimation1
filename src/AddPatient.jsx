@@ -1,6 +1,7 @@
 import AppHeader from './components/AppHeader';
 import './App.css';
 // import Select from "react-dropdown-select";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 import SearchableDropdown from './components/SearchableDropdown';
 import { searchdata } from "./data/searchdata.js";
@@ -59,15 +60,20 @@ function AddPatient() {
                     </div>
                 </div>
                 <div class="Cancelbutton">
-                    <button class="Button" id="cancel">Cancel</button>
+                    <button class="Button" id="cancel"onClick={(e) => link_selectoperation()} style={{ cursor: 'pointer' }}>Cancel</button>
                 </div>
                 <div class="Submitbutton">
-                    <button class="Button" id="submit">Submit</button>
+                    <button class="Button" id="submit"onClick={(e) => link_selectoperation()} style={{ cursor: 'pointer' }}>Submit</button>
                 </div>
 
             </div>
         </div>
     );
 };
-
+function link_addpatient() {
+    window.location.assign("/addpatient")
+}
+function link_selectoperation() {
+    window.location.assign("/selectoperation")
+}
 export default AddPatient;

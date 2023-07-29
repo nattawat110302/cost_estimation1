@@ -46,11 +46,11 @@ function CostEstimateDraftBlock() {
           {BLock()}
         </div>
         <div class="button">
-          <button class="roundbutton" id="addbutton">+</button>
+          <button class="roundbutton" id="addbutton" onClick={(e) => link_selectorcreatetemplate()} style={{ cursor: 'pointer' }}>+</button>
         </div>
       </div>
       <div class="Backbutton">
-        <button class="Button" id="back">Back</button>
+      <Link to="/costestimateblock"><button class="Button" id="back" onClick={(e) => link_costestimateblock()} style={{ cursor: 'pointer' }}>Back</button></Link>
       </div>
       <div className="Nextbutton">
         <a>Actual Price</a>
@@ -60,7 +60,7 @@ function CostEstimateDraftBlock() {
           value={actualPrice}
           onChange={(e) => setActualPrice(e.target.value)}
         />
-        <button className="Button" id="verify" onClick={handleVerify}>
+        <button className="Button" id="verify" onClick={handleVerify}style={{ cursor: 'pointer' }}>
           Verify
         </button>
       </div>
@@ -139,5 +139,10 @@ function BLock() {
   }
 }
 
-
+function link_costestimateblock() {
+  window.location.assign("/costestimateblock")
+}
+function link_selectorcreatetemplate() {
+  window.location.assign("/selectorcreatetemplate")
+}
 export default CostEstimateDraftBlock;

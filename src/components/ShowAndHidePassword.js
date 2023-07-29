@@ -21,7 +21,7 @@ function ShowAndHidePassword(){
                 <div className="input-group my-4 mx-4">
                     <input type={passwordType} onChange={handlePasswordChange} value={passwordInput} name="password" class="textfield-login-password" />
                     <div className="input-group-btn">
-                     <button className="Button_show_hide" onClick={togglePassword}>Show / Hide
+                     <button className="Button_show_hide" onClick={togglePassword} style={{ cursor: 'pointer' }}>Show / Hide
                      { passwordType==="password"? <i className="bi bi-eye-slash"></i> :<i className="bi bi-eye"></i> }
                      </button>
                     </div>

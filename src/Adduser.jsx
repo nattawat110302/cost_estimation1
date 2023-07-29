@@ -2,6 +2,7 @@ import AppHeader from './components/AppHeader';
 import './App.css';
 import Select from "react-dropdown-select";
 import Popup from 'reactjs-popup';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function Adduser() {
     const options = [
@@ -51,7 +52,7 @@ function Adduser() {
                 <div className="form-controllast">
                     <div className="registertextinfo">
                         <label>Email Address</label>
-                        <Popup trigger={<img className="infoimg" src="/images/information_icon.png" alt="information" />} position="right center">
+                        <Popup trigger={<img className="infoimg" src="/images/information_icon.png" alt="information" style={{ cursor: 'pointer' }}/>} position="right center" >
                             <div className="popup-information">
                             the system will use email as a channel. Announcing various news from the system.
                             </div>
@@ -86,13 +87,10 @@ function Adduser() {
 
 
                 <div class="Cancelbutton-adduser">
-                    <button class="Button" id="cancel">Cancel</button>
-                </div>
-                <div class="Cancelbutton-adduser">
-                    <button class="Button" id="cancel">Cancel</button>
+                <Link to="/login"><button class="Button" id="cancel" style={{ cursor: 'pointer' }}>Cancel</button></Link>
                 </div>
                 <div class="Submitbutton-adduser">
-                    <button class="Button" id="submit">Submit</button>
+                <Link to="/login"><button class="Button" id="submit" style={{ cursor: 'pointer' }}>Submit</button></Link>
                 </div>
             </div>
         </div>

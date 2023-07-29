@@ -38,11 +38,11 @@ function CostEstimateBlock() {
                     {BLock()}
                 </div>
                 <div class="button">
-                    <button class="roundbutton" id="addbutton">+</button>
+                    <button class="roundbutton" id="addbutton" onClick={(e) => link_selectprocedure()} style={{ cursor: 'pointer' }}>+</button>
                 </div>
             </div>
             <div class="Backbutton">
-                <button class="Button" id="back">Back</button>
+                <button class="Button" id="back" onClick={(e) => link_selectpatient()} style={{ cursor: 'pointer' }}>Back</button>
             </div>
         </div>
     );
@@ -66,7 +66,8 @@ function BLock() {
         const listItems = data.map(
             (element) => {
                 return (
-                    <ul type="disc">
+                    
+                    <ul type="disc" >
                         <li class="Item-li">
                             {element.name}<br />
                             {element.price}
@@ -76,10 +77,22 @@ function BLock() {
             }
         )
         return (
-            <div class="items">
+            <div class="items" onClick={(e) => link_costestimatedraftblock()} style={{ cursor: 'pointer' }}>
+                
                 {listItems}
+                
             </div>
         )
     }
 }
+function link_selectpatient() {
+    window.location.assign("/selectpatient")
+}
+function link_costestimatedraftblock() {
+    window.location.assign("/CostEstimateDraftBlock")
+}
+function link_selectprocedure() {
+    window.location.assign("/selectprocedure")
+}
+
 export default CostEstimateBlock;

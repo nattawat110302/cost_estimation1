@@ -39,7 +39,7 @@ function SelectorCreateTemplate() {
                                 handleChange={(val) => setValue(val)}
                             />
                         </div>
-                        <button class="Button" id="nexttob">Create</button>
+                        <button class="Button" id="nexttob" onClick={(e) => link_CreateTemplate()} style={{ cursor: 'pointer' }}>Create</button>
                     </div>
                     <div class="Time">
                         {HourDropdown()}
@@ -65,8 +65,8 @@ function SelectorCreateTemplate() {
                     </div>
                 </div>
                 <div class="buttonContainer2">
-                    <button className="Button Backbutton">Cancel</button>
-                    <button className="Button Nextbutton">Confirm</button>
+                    <button className="Button Backbutton" onClick={(e) => link_costestimatedraftblock()} style={{ cursor: 'pointer' }}>Cancel</button>
+                    <button className="Button Nextbutton" onClick={(e) => link_CostEstimationDetail()} style={{ cursor: 'pointer' }}>Confirm</button>
                 </div>
             </div>
         </div>
@@ -109,5 +109,13 @@ function HourDropdown() {
         </div>
     );
 }
-
+function link_CreateTemplate() {
+    window.location.assign("/CreateTemplate")
+}
+function link_costestimatedraftblock() {
+    window.location.assign("/CostEstimateDraftBlock")
+}
+function link_CostEstimationDetail() {
+    window.location.assign("/CostEstimationDetail")
+}
 export default SelectorCreateTemplate;

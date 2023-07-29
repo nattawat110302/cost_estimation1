@@ -1,13 +1,18 @@
 .id {
     float:left;
     margin-right: 90px;
+    margin-bottom: 10px;
 }
 .name {
     float:left; 
     margin-right: 110px;
+    margin-bottom: 10px;
 }
 .age{
     float:right; 
-
+    /* margin-bottom: 10px; */
+}
+.create-button{
+    margin-left: 50px;
     
 }

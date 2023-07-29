@@ -92,12 +92,14 @@ function Selectprocedure() {
                     </div>
                 </div>
                 <div class="buttonContainer2">
-                    <button className="Button Backbutton">Back</button>
-                    <button className="Button Nextbutton">Next</button>
+                    <button className="Button Backbutton" onClick={(e) => link_costestimateblock()} style={{ cursor: 'pointer' }}>Back</button>
+                    <button className="Button Nextbutton" onClick={(e) => link_costestimateblock()} style={{ cursor: 'pointer' }}>Next</button>
                 </div>
             </div>
         </div>
     );
 };
-
+function link_costestimateblock() {
+    window.location.assign("/CostEstimateBlock")
+}
 export default Selectprocedure;
