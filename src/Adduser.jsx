@@ -88,6 +88,9 @@ function Adduser() {
                 <div class="Cancelbutton-adduser">
                     <button class="Button" id="cancel">Cancel</button>
                 </div>
+                <div class="Cancelbutton-adduser">
+                    <button class="Button" id="cancel">Cancel</button>
+                </div>
                 <div class="Submitbutton-adduser">
                     <button class="Button" id="submit">Submit</button>
                 </div>
